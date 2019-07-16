@@ -8,7 +8,6 @@
 
 net user admin 123456 /add
 net localgroup administrators admin /add
-net localgroup "Remote Desktop User" admin /add
 ```
 
 隐藏用户
@@ -37,6 +36,8 @@ net user admin /del
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
 删除 SpecialAccounts
+
+[以下两项新用户登陆过才会有]
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
 找到对应用户项-删除
