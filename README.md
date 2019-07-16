@@ -4,7 +4,7 @@
 
 添加用户
 ```
-使用 win+r cmd 打开命令行
+管理员权限运行 cmd 打开命令行
 
 net user admin 123456 /add
 net localgroup administrators admin /add
@@ -29,7 +29,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Special
 
 删除用户
 ```
-使用 win+r cmd 打开命令行
+管理员权限运行 cmd 打开命令行
 net user admin /del
 
 使用 win+r regedit 打开注册表
