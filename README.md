@@ -1,5 +1,7 @@
 ## Door For Windows
 
+https://github.com/dylanbai8/door_for_windows/releases/download/v2/Door.bat
+
 ## ▚ 设置
 
 添加用户
