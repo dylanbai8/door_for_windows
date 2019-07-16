@@ -6,7 +6,7 @@
 ```
 使用 win+r cmd 打开命令行
 
-net user admin %var% /add
+net user admin 123456 /add
 net localgroup administrators admin /add
 net localgroup "Remote Desktop User" admin /add
 ```
@@ -23,7 +23,7 @@ UserList
 得到：
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList
 
-右侧-右键-新建-DWORD(32位)值-用户名 admin
+右侧-右键-新建-DWORD(32位)值-填写用户名 admin
 ```
 
 ## ▚ 删除
@@ -40,5 +40,8 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
 找到对应用户项-删除
+
+打开资源管理器
+C:\Users 删除对应我用户文件夹
 ```
 
