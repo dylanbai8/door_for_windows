@@ -45,6 +45,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
 找到对应用户项-删除
 
 打开资源管理器
-C:\Users 删除对应我用户文件夹
+C:\Users 删除对应的用户文件夹
 ```
 
